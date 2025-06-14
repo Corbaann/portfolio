@@ -112,7 +112,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-height: 50%;
+  max-height: 85%;
 }
 
 /* Profile Section */
@@ -133,19 +133,19 @@ header h1 {
 .profile-details {
   flex: 1;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 2.6;
 }
 
 /* Stats Section */
 .stats-section {
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 .stat-box {
   background-color: #222;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 30px;
+  border-radius: 15px;
   text-align: center;
   color: white;
   transition: transform 0.3s ease;
@@ -250,9 +250,9 @@ header h1 {
 /* Main Content */
 .qualifications {
   max-width: 1200px;
-  padding: 20px;
+  padding: 5px;
   display: flex;
-  gap: 40px;
+  gap: 5px;
 }
 
 /* Qualification Item */
@@ -270,8 +270,11 @@ header h1 {
 }
 
 .content3 {
-  flex: 1;
+  flex: 2;
 }
+
+
+
 
 .content3 h4 {
   font-size: 18px;
@@ -287,13 +290,13 @@ header h1 {
 .fa-briefcase,
 .fa-calendar-alt {
   color: #e74c3c; /* Red accent color */
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 /* Sections */
 .education,
 .experience {
-  width: 50%;
+  width: 70%;
 }
 
 .experience h3 i {
