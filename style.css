@@ -173,7 +173,7 @@ header h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #534b4b;
   padding: 20px 50px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -193,13 +193,13 @@ header h1 {
 
 .nav-links li a {
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-  color: #00a82d; /* Elegant green hover */
+  color: #cb1b04; /* Elegant green hover */
 }
 
 /* Responsive (optional) */
