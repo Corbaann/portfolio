@@ -3,101 +3,241 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Philip Mwihia</title>
+  <title>Corban's Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <script src="resume.js"></script>
 </head>
 <body>
-  <nav class="navbar">
-     
-        
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="folio.html">about</a></li>
-      <li><a href="qualification.html">Qualifications</a></li>
-     
-    </ul>
-  </nav>
-  <div class="container">
-    <div class="profile">
-      <div class="text-section">
-        <h1>Hi, I'm Corban</h1>
-        <p class="subtitle">Software Developer</p>
-        <p>I am currently proficient in Java, JavaScript, HTML, CSS , and SQL </p>
-        <p>I am a skilled photographer equipped with professional gear, experienced in capturing high-quality images across various genres. </p>
-        <button class="cta-button"  ><a href="about.html">More About Me!</a></button>
-        <div class="contact-info">
-          <div class="contact-item">
-            <img src="images/loc.png" alt="Facebook" class="social-icon">
-            <span>Nairobi Kenya</span>
-          </div>
-          <div class="contact-item">
-            <img src="images/tel1.png" alt="WhatsApp" class="social-icon">
-            <span>0706836452</span>
-          </div>
-          <div class="contact-item">
-            <img src="images/mail.png" alt="Email" class="social-icon">
-            <span>philmwhia@gmail.com</span>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="images/Image_fx.jpg" alt="Profile Picture" class="profile-pic">
+        <span>CORBAN</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" class="download-cv">Download CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="text">
+          <p>Hi I am </p>
+          <h1>Corban Mwihia</h1>
+          <h2>Web Developer</h2>
+          <p>I am proficient in HTML, CSS, JavaScript, Java, Adobe photoshp, SQL , and Node.js , allowing me to build dynamic, responsive, and data-driven web applications. With a solid foundation in both front-end and back-end development, I create seamless user experiences backed by efficient logic and database management.</p>
+          <button class="hire-me-btn">Hire Me</button>
+        </div>
+        <div class="image">
+          <img src="images/DSC.jpg" alt="Fawzi Sayed" class="profile-pic-large">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="image">
+          <img src="images/DSC.jpg" alt="Fawzi Sayed" class="profile-pic-large">
+        </div>
+        <div class="text">
+          <h2>About Me</h2>
+          <p>I'm a passionate Computer Science student with a deep love for coding, problem-solving, and all things tech . I enjoy diving into new programming languages, building projects, and constantly learning about the ever-evolving world of technology. 
+            Whether it's developing web applications or exploring the power of algorithms,
+             I find joy in turning ideas into functional digital solutions.Beyond the screen,
+              I have a creative side — I’m an enthusiastic photographer , capturing moments that tell stories and showcase the beauty in everyday life. I also have a strong passion for cars — from classic models to modern supercars, 
+              I love everything about automotive design, performance, and culture.</p>
+          <div class="skills">
+            <div class="skill">
+              <span>Java</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Java Script</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Node Js</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>SQL</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 95%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 98%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>CSS</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 92%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Photography</span>
+              <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="image-section">
-        <img src="images/DSC.jpg" alt="Phil" class="profile-image">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="containerr">
+      <h2>Services</h2>
+      <p class="description">
+        
+      </p>
+      <div class="service-grid">
+        <div class="service-card">
+          <img src="images/ui.jpg" alt="UI/UX Icon" class="service-icon">
+          <h3>UI/UX</h3>
+          <p>
+            crafting intuitive and visually appealing digital experiences
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="images/design.jpg" alt="Web Design Icon" class="service-icon">
+          <h3>Web Design</h3>
+          <p>
+            building modern, responsive websites tailored to your brand
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="images/photo1.jpg" alt="App Design Icon" class="service-icon">
+          <h3>Photography</h3>
+          <p>
+            I capture moments through photography , delivering high-quality visuals that tell your story.
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="images/graphic.jpg" alt="Graphic Design Icon" class="service-icon">
+          <h3>Graphic Design</h3>
+          <p>
+            With a creative eye, I provide graphic design solutions for logos, social media, and marketing materials.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <footer>
-    <div class="footer-container">
-      <!-- Product Section -->
-      <div class="footer-column">
-        <h3>SERVICES</h3>
-        <ul>
-          <li><a href="#">FrontEnd Web Development</a></li>
-          <li><a href="#">BackEnd Web Development</a></li>
-          <li><a href="#">Photography</a></li>
-          <li><a href="#">Frequently asked questions</a></li>
-        </ul>
-      </div>
-
-      <!-- Company Section -->
-      <div class="footer-column">
-        <h3>ABOUT</h3>
-        <ul>
-          <li><a href="#">Diploma in computer science</a></li>
-          <li><a href="#" style="color: #FFD700;">AI propmt Engineer</a></li>
-          <li><a href="#">Professional photographer</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact & Support Section -->
-      <div class="footer-column">
-        <h3>CONTACT & SUPPORT</h3>
-        <ul>
-          <li><i class="fas fa-phone"></i> +254 706836452</li>
-          <li><i class="fas fa-comment-dots"></i> Live chat</li>
-          <li>  <a href="https://wa.me/qr/IFLX2TQ5PZA3E1">Contact us</a> </li>
-          <li><i class="fas fa-star"></i> Give feedback</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
-      <div class="copyright">
-        Copyright © Corban  2025
-      </div>
-      <div class="social-links">
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-      <div class="links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Use</a>
-      </div>
-    </div>
-  </footer>
- 
+  </section>
   
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="ccontainer">
+      <h2>My Projects</h2>
+      <p class="description">
+      
+      </p>
+      <!-- Filters -->
+      <div class="filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">UI/UX</button>
+        <button class="filter-btn active">Web Design</button>
+        <button class="filter-btn">Photography</button>
+        <button class="filter-btn">Graphic Design</button>
+      </div>
+      <!-- Project Cards -->
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="images/likizo.png" alt="Project 1" class="project-image">
+          <div class="project-info">
+            <span class="project-category">Education Website</span>
+            <h3 class="project-title"></h3>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/phot.png" alt="Project 2" class="project-image">
+          <div class="project-info">
+            <span class="project-category">Photography Website</span>
+            <h3 class="project-title"></h3>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/gaming.png" alt="Project 3" class="project-image">
+          <div class="project-info">
+            <span class="project-category">gaming Website</span>
+            <h3 class="project-title"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contaainer">
+        <!-- Progress Indicators -->
+        <div class="progress-indicators">
+          <span class="indicator active"></span>
+          <span class="indicator"></span>
+          <span class="indicator"></span>
+        </div>
+        <!-- Main Content -->
+        <h2>Let's Design Together</h2>
+        <p class="description">
+          
+        </p>
+        <!-- Email Form -->
+       
+        <form action="#" method="post">
+          <input type="email" placeholder="Enter Your Email" required>
+          <button type="submit" class="contact-btn">Contact Me</button>
+        </form>
+        <!-- Footer -->
+        <footer>
+          <div class="footer-content">
+            <img src="images/Image_fx.jpg" alt="Profile Picture" class="profile-pic">
+            <nav>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <!-- Copyright -->
+          <p class="copyright">&copy; 2025 Corban All Rights Reserved, Inc.</p>
+        </footer>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <script src="script.js"></script>
 </body>
 </html>
