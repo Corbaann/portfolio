@@ -11,25 +11,35 @@
     color: #fff;
   }
 
-@media (max-width: 412px) { /* Samsung Galaxy S22 */
+@media (max-width: 800px) { /* Samsung Galaxy S22 */
   .container {
     
     flex-direction: column;
     align-items: flex-start;
   }
+  .containerr {
+    
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-  .profile {
+  .hero-content {
     flex-direction: column;
     align-items: center;
   }
 
-  .profile-image {
-    max-width: 100%;
+  .about-image {
+    max-width: 30%;
+  }
+  .about-text {
+    flex-direction: column;
+    align-items: center;
   }
 
   h1 {
     font-size: 2.5rem;
   }
+  
 
   .subtitle {
     font-size: 1.2rem;
@@ -46,6 +56,25 @@
   .contact-info {
     flex-direction: column;
   }
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  .skill {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .service{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  .contaainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
   
   .container {
@@ -166,6 +195,7 @@
   /* About Section */
   #about {
     padding: 50px 0;
+    max-width: 100%;
   }
   
   .about-content {
@@ -198,7 +228,7 @@
   }
   
   .progress-bar {
-    width: 100%;
+    width: 50%;
     height: 10px;
     background-color: #333;
     border-radius: 5px;
