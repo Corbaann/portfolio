@@ -82,6 +82,10 @@
     flex-direction: column; /* Stack sections vertically */
       gap: 10px; /* Reduce spacing */
   }
+  .project-grid {
+    flex-direction: column;
+    gap: 10px;
+  }
   
 }
   
