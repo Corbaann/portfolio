@@ -10,6 +10,12 @@
     background-color: #111;
     color: #fff;
   }
+  #round-full{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
 
 @media (max-width: 768px) { /* Samsung Galaxy S22 */
   body {
@@ -561,6 +567,12 @@
     color: #aaa;
   }
 
-  
+  .rounded-full{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+  }
 
 
